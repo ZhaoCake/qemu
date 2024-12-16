@@ -33,7 +33,6 @@ config EDU
 config SIMPLE_DEVICE
     bool
     default y
-    depends on SOFTMMU
 
 config PCA9552
     bool
